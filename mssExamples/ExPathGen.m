@@ -221,7 +221,7 @@ for i= 1:4
     plot(yth,xth,'linewidth',2);
 end
 hold off
-xlabel('y_d(\theta)')
+ylabel('y_d(\theta)')
 xlabel('x_d(\theta)')
 axis('equal')
 grid 
